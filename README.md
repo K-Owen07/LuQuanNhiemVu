@@ -1,8 +1,3 @@
-# LuQuanNhiemVu
-YiguThreeKingdoms, còn được biết đến với tên Yigu Three Kingdoms/Three Kingdoms, là mod Tam Quốc cho Mount & Blade II: Bannerlord do YiGu Studio phát triển.
-Nội dung custom của Lưu Vong Phục Quốc do ThanhTuan thực hiện và sở hữu phần sáng tạo riêng gồm nhiệm vụ, hội thoại, hướng dẫn và cấu trúc cốt truyện bổ sung.
-Lữ Quán Nhiệm Vụ không thay thế YiguThreeKingdoms. Đây là sub-mod/custom story mod: phần mở rộng nhỏ hơn, dựa trên mod nền để thêm nhiệm vụ, hội thoại, gợi ý, thử thách và nội dung cốt truyện riêng.
-Lữ Quán Nhiệm Vụ không phải sản phẩm chính thức của YiGu Studio hoặc TaleWorlds. Mọi tên game, tên mod nền và tài sản liên quan thuộc về chủ sở hữu tương ứng.
 # Web Lữ Quán Nhiệm Vụ
 
 Thư mục này là landing page tĩnh cho **Lữ Quán Nhiệm Vụ**, nơi giới thiệu các sub-mod/custom story mod tiếng Việt cho Bannerlord.
