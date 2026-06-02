@@ -14,6 +14,15 @@ Trang cần giữ rõ tinh thần phi thương mại: mod chia sẻ miễn phí,
 
 Mở file `index.html` bằng trình duyệt.
 
+Nếu ảnh nền hoặc QR bị lỗi trên GitHub Pages, hãy kiểm tra repository đã upload đủ thư mục `assets` chưa. Tối thiểu nên có:
+
+```text
+assets/hero.png
+assets/donate-qr-placeholder.svg
+```
+
+Logo đã được nhúng trực tiếp trong `index.html`, nên không cần file logo riêng.
+
 ## Cập nhật link tải
 
 Sửa file `app.js`:
@@ -44,4 +53,19 @@ feedbackUrl: "https://m.me/ten-facebook-cua-ban",
 
 ## Đưa web lên mạng
 
-Xem file `HUONG_DAN_DANG_WEB.md`.
+GitHub Pages có thể dùng miễn phí nếu bạn để repository ở chế độ public. Xem hướng dẫn chi tiết trong `HUONG_DAN_DANG_WEB.md`.
+
+Tóm tắt nhanh:
+
+1. Tạo tài khoản GitHub.
+2. Tạo repository public, ví dụ `lu-quan-nhiem-vu`.
+3. Upload toàn bộ file trong thư mục này lên repository.
+4. Vào `Settings` > `Pages`.
+5. Chọn `Deploy from a branch`.
+6. Chọn branch `main`, thư mục `/root`.
+7. Bấm `Save`.
+8. Chờ vài phút, GitHub sẽ tạo link dạng:
+
+```text
+https://ten-github-cua-ban.github.io/lu-quan-nhiem-vu/
+```

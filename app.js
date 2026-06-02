@@ -7,6 +7,20 @@ const siteConfig = {
   donateQr: "assets/donate-qr-placeholder.svg"
 };
 
+const qrFallback =
+  "data:image/svg+xml;utf8," +
+  encodeURIComponent(`
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <rect width="320" height="320" fill="#f5f0e5"/>
+  <rect x="28" y="28" width="76" height="76" fill="#1c1812"/>
+  <rect x="46" y="46" width="40" height="40" fill="#f5f0e5"/>
+  <rect x="216" y="28" width="76" height="76" fill="#1c1812"/>
+  <rect x="234" y="46" width="40" height="40" fill="#f5f0e5"/>
+  <rect x="28" y="216" width="76" height="76" fill="#1c1812"/>
+  <rect x="46" y="234" width="40" height="40" fill="#f5f0e5"/>
+  <text x="160" y="156" text-anchor="middle" fill="#8b2f25" font-family="Arial" font-size="20" font-weight="700">THAY QR</text>
+</svg>`);
+
 document.querySelectorAll("[data-download-link]").forEach((link) => {
   link.href = siteConfig.downloadUrl;
   link.target = "_blank";
@@ -26,6 +40,10 @@ document.querySelectorAll("[data-donate-note]").forEach((node) => {
 });
 
 document.querySelectorAll("[data-donate-qr]").forEach((img) => {
+  img.onerror = () => {
+    img.onerror = null;
+    img.src = qrFallback;
+  };
   img.src = siteConfig.donateQr;
 });
 
