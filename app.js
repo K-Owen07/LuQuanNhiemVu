@@ -4,7 +4,7 @@ const siteConfig = {
   feedbackUrl: "https://m.me/THAY_USERNAME_FACEBOOK_CUA_BAN",
   donateName: "ThanhTuan",
   donateNote: "Ung ho Lu Quan Nhiem Vu",
-  donateQr: "assets/donate-qr-placeholder.svg"
+  donateQr: "assets/donate-qr-placeholder.svg?v=20260602"
 };
 
 const qrFallback =

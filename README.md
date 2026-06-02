@@ -23,6 +23,28 @@ assets/donate-qr-placeholder.svg
 
 Logo đã được nhúng trực tiếp trong `index.html`, nên không cần file logo riêng.
 
+Nếu vẫn lỗi ảnh sau khi đã upload, kiểm tra trực tiếp bằng cách mở các link này trên trình duyệt:
+
+```text
+https://ten-github-cua-ban.github.io/lu-quan-nhiem-vu/assets/hero.png
+https://ten-github-cua-ban.github.io/lu-quan-nhiem-vu/assets/donate-qr-placeholder.svg
+```
+
+Nếu link hiện `404`, nghĩa là file chưa nằm đúng chỗ trên GitHub. Tên thư mục và file phải đúng chữ thường:
+
+```text
+assets/hero.png
+assets/donate-qr-placeholder.svg
+```
+
+Không phải:
+
+```text
+Assets/Hero.png
+LuuVongPhucQuoc_Web/assets/hero.png
+assets/hero.PNG
+```
+
 ## Cập nhật link tải
 
 Sửa file `app.js`:
