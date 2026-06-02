@@ -1,4 +1,7 @@
 # Web Lữ Quán Nhiệm Vụ
+Dự án đầu tiên trên trang là **Lưu Vong Phục Quốc**, một sub-mod cốt truyện dùng cho **YiguThreeKingdoms**. Nội dung custom của dự án do **ThanhTuan** thực hiện, gồm nhiệm vụ, hội thoại, hướng dẫn và cấu trúc cốt truyện bổ sung.
+
+Trang được thiết kế để đăng bằng GitHub Pages, không cần server riêng và không cần tên miền.
 
 Thư mục này là landing page tĩnh cho **Lữ Quán Nhiệm Vụ**, nơi giới thiệu các sub-mod/custom story mod tiếng Việt cho Bannerlord.
 
