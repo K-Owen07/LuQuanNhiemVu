@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="QR donate placeholder">
+  <rect width="512" height="512" fill="#fff"/>
+  <g fill="#111416">
+    <rect x="42" y="42" width="116" height="116"/>
+    <rect x="70" y="70" width="60" height="60" fill="#fff"/>
+    <rect x="354" y="42" width="116" height="116"/>
+    <rect x="382" y="70" width="60" height="60" fill="#fff"/>
+    <rect x="42" y="354" width="116" height="116"/>
+    <rect x="70" y="382" width="60" height="60" fill="#fff"/>
+    <rect x="210" y="70" width="32" height="32"/>
+    <rect x="258" y="70" width="32" height="32"/>
+    <rect x="210" y="118" width="80" height="32"/>
+    <rect x="194" y="194" width="32" height="32"/>
+    <rect x="242" y="194" width="80" height="32"/>
+    <rect x="354" y="210" width="32" height="32"/>
+    <rect x="402" y="210" width="48" height="32"/>
+    <rect x="194" y="258" width="96" height="32"/>
+    <rect x="322" y="258" width="32" height="32"/>
+    <rect x="386" y="274" width="64" height="32"/>
+    <rect x="210" y="338" width="32" height="32"/>
+    <rect x="274" y="338" width="96" height="32"/>
+    <rect x="402" y="338" width="48" height="32"/>
+    <rect x="194" y="402" width="64" height="32"/>
+    <rect x="306" y="402" width="32" height="32"/>
+    <rect x="370" y="402" width="80" height="32"/>
+  </g>
+  <text x="256" y="500" fill="#111416" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">Thay bằng QR donate thật</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ấn Lưu Vong Phục Quốc">
+  <rect width="64" height="64" rx="10" fill="#111416"/>
+  <path d="M18 45h28l-4-18 5-9-11 3-4-10-4 10-11-3 5 9z" fill="#9e2f25"/>
+  <path d="M22 45h20v7H22z" fill="#d2a95f"/>
+  <path d="M26 31h12M29 23l3-7 3 7" stroke="#f4ead8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
