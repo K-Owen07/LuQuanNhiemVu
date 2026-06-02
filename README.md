@@ -13,8 +13,6 @@ Trang cần giữ rõ tinh thần phi thương mại: mod chia sẻ miễn phí,
 
 ## Cập nhật link tải
 
-Sửa file `app.js`:
 
-```js
 downloadUrl: "https://drive.google.com/file/d/1Iop1zB7gt37ipZ5th-_hGKxSvOKJadFB/view?usp=sharing"
 yiguFixesDownloadUrl: "https://drive.google.com/file/d/1iWz62EudRxqIU6c_xTekqt5fJNkawDJP/view?usp=sharing"
