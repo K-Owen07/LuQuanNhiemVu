@@ -1,10 +1,11 @@
 const siteConfig = {
   version: "v1.0.0",
-  downloadUrl: "https://drive.google.com/file/d/THAY_ID_FILE_MOD_CUA_BAN/view?usp=sharing",
-  feedbackUrl: "https://m.me/THAY_USERNAME_FACEBOOK_CUA_BAN",
+  downloadUrl: "https://drive.google.com/file/d/1Iop1zB7gt37ipZ5th-_hGKxSvOKJadFB/view?usp=sharing",
+  yiguFixesDownloadUrl: "https://drive.google.com/file/d/1iWz62EudRxqIU6c_xTekqt5fJNkawDJP/view?usp=sharing",
+  feedbackUrl: "https://m.me/thanhtuan177",
   donateName: "ThanhTuan",
   donateNote: "Ung ho Lu Quan Nhiem Vu",
-  donateQr: "assets/donate-qr-placeholder.svg?v=20260602"
+  donateQr: "assets/qr.jpg?v=20260602"
 };
 
 const qrFallback =
@@ -23,6 +24,12 @@ const qrFallback =
 
 document.querySelectorAll("[data-download-link]").forEach((link) => {
   link.href = siteConfig.downloadUrl;
+  link.target = "_blank";
+  link.rel = "noopener";
+});
+
+document.querySelectorAll("[data-yigufixes-download-link]").forEach((link) => {
+  link.href = siteConfig.yiguFixesDownloadUrl;
   link.target = "_blank";
   link.rel = "noopener";
 });
