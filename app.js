@@ -5,7 +5,7 @@ const siteConfig = {
   feedbackUrl: "https://m.me/thanhtuan177",
   donateName: "ThanhTuan",
   donateNote: "Ung ho Lu Quan Nhiem Vu",
-  donateQr: "assets/qr.jpg?v=20260602"
+  donateQr: "https://raw.githubusercontent.com/K-Owen07/LuQuanNhiemVu/main/assets/qr.jpg"
 };
 
 const qrFallback =
