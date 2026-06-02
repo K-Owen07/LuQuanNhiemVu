@@ -5,7 +5,7 @@ const siteConfig = {
   feedbackUrl: "https://m.me/thanhtuan177",
   donateName: "ThanhTuan",
   donateNote: "Ung ho Lu Quan Nhiem Vu",
-  donateQr: "https://raw.githubusercontent.com/K-Owen07/LuQuanNhiemVu/main/assets/qr.jpg"
+  donateQr: ""
 };
 
 const qrFallback =
@@ -51,7 +51,9 @@ document.querySelectorAll("[data-donate-qr]").forEach((img) => {
     img.onerror = null;
     img.src = qrFallback;
   };
-  img.src = siteConfig.donateQr;
+  if (siteConfig.donateQr) {
+    img.src = siteConfig.donateQr;
+  }
 });
 
 const hasFeedbackUrl = !siteConfig.feedbackUrl.includes("THAY_");
