@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lữ Quán Nhiệm Vụ - Sub-mod cốt truyện Bannerlord</title>
   <meta name="description" content="Trang giới thiệu, hướng dẫn nhiệm vụ và tải các mod cốt truyện tiếng Việt cho Mount & Blade II: Bannerlord.">
-  <link rel="stylesheet" href="styles.css?v=20260602-clear">
+  <link rel="stylesheet" href="styles.css?v=20260603-story">
 </head>
 <body>
   <header class="site-header">
@@ -18,9 +18,9 @@
       <span>Lữ Quán Nhiệm Vụ</span>
     </a>
     <nav class="nav">
-      <a href="#download">Tải mod</a>
-      <a href="#story">Cốt truyện</a>
-      <a href="#guide">Hướng dẫn</a>
+    <a href="#download">Tải mod</a>
+    <a href="story.html" target="_blank" rel="noopener">Cốt truyện</a>
+    <a href="#guide">Hướng dẫn</a>
       <a href="#roles">Vai trò</a>
       <a href="#submod">Sub-mod</a>
       <a href="#support-mods">Mod hỗ trợ thêm</a>
@@ -122,6 +122,34 @@
           </p>
         </article>
       </div>
+      <div class="story-full" id="story-block">
+        <article>
+          <h3>Cốt truyện — giới thiệu đầy đủ</h3>
+          <div class="story-preview">
+            <p>
+              Lưu Vong Phục Quốc bắt đầu tại làng Mãnh Lăng, nơi Nhân chứng Mãnh Lăng vẫn giữ ký ức về đêm gia biến
+              và mảnh Huyết Ngọc Ấn nhuốm máu. Người chơi trở về trong thân phận hậu duệ lưu vong,
+              lập Huyết Thệ để báo thù, phục quốc và cứu dân Giao Châu khỏi mạng lưới của Sĩ Nhiếp.
+            </p>
+            <p>
+              Câu chuyện đi qua tám chương: đánh sơn tặc, dựng Quân Trướng, phá thế đói trong Sổ Lương Máu,
+              đoạt lại Huyết Ngọc Ấn, tái lập hổ kỳ, chiếm Quảng Tín cứu A Lan, vạch mặt Phản Cốt
+              và đưa tội ác của Sĩ Nhiếp ra phán quyết tại Phiên Ngung.
+            </p>
+          </div>
+          <div class="story-more" id="story-more" aria-hidden="true" style="display:none;">
+            <p>
+              Trang riêng đã được viết lại thành bản giới thiệu hoàn chỉnh: bối cảnh gia tộc, Huyết Thệ,
+              vai trò Nhân chứng Mãnh Lăng, A Lan, Quân Trướng, Hắc Kỵ, Phản Cốt, các nhiệm vụ phụ
+              và hai hướng kết thúc hiện tại của mod.
+            </p>
+          </div>
+          <div class="story-actions">
+            <button id="story-toggle" class="button secondary">Đọc tiếp</button>
+            <a class="button secondary" href="story.html" target="_blank" rel="noopener">Mở trang cốt truyện</a>
+          </div>
+        </article>
+      </div>
     </section>
 
     <section id="story" class="band story-band">
@@ -133,22 +161,27 @@
         <article>
           <h3>Khởi điểm</h3>
           <p>
-            Lưu Vong Phục Quốc mở đầu bằng hành trình tìm lại một nhân chứng cũ. Từ đó, những manh mối đầu tiên
-            dẫn người chơi vào một tuyến truyện phục quốc mang màu sắc riêng.
+            Người chơi gặp Nhân chứng Mãnh Lăng, nghe lại đêm gia tộc bị vu phản nghịch và lập Huyết Thệ
+            trước khi bước vào tuyến truyện chính.
           </p>
         </article>
         <article>
           <h3>Hành trình</h3>
           <p>
-            Bạn sẽ vừa chiến đấu, vừa gây dựng quan hệ, tìm nhân tài, củng cố hậu cần và chuẩn bị cho những
-            quyết định lớn hơn ở phía sau.
+            Tám chương nối gameplay với cốt truyện: Quân Trướng, hậu cần, Mật Thư, Huyết Ngọc Ấn,
+            căn cứ đầu tiên, A Lan, Phản Cốt và Phiên Ngung.
           </p>
         </article>
         <article>
-          <h3>Không spoil</h3>
+          <h3>Kết cục</h3>
           <p>
-            Trang này chỉ gợi ý cách chơi và điều kiện nhiệm vụ. Những bước ngoặt, lựa chọn then chốt và kết quả
-            của từng chương nên để người chơi tự khám phá trong game.
+            Hành động trong game quyết định bạn giữ lời thề theo hướng báo thù, phục quốc, cứu dân
+            hay rơi vào Bad Ending Kẻ Lưu Đày.
+          </p>
+          <p>
+            Trước trận cuối, người chơi phải nghe tiếng dân Giao Châu rồi chọn phán quyết Sĩ Nhiếp:
+            phán quyết bằng máu, hoặc bắt sống, buộc thoái vị và lưu đày xa khỏi Giao Châu.
+            Khi tuyến kết thúc, game sẽ báo tổng kết và những nội dung phụ còn thiếu trên bảng nhiệm vụ.
           </p>
         </article>
       </div>
@@ -371,7 +404,19 @@
     <a href="#top">Lên đầu trang</a>
   </footer>
 
-  <script src="app.js?v=20260602-clear"></script>
+  <script>
+    (function(){
+      var btn = document.getElementById('story-toggle');
+      var more = document.getElementById('story-more');
+      if(!btn || !more) return;
+      btn.addEventListener('click', function(){
+        var expanded = more.style.display === 'block';
+        more.style.display = expanded ? 'none' : 'block';
+        btn.textContent = expanded ? 'Đọc tiếp' : 'Thu gọn';
+        more.setAttribute('aria-hidden', expanded ? 'true' : 'false');
+      });
+    })();
+  </script>
+  <script src="app.js?v=20260603-story"></script>
 </body>
 </html>
-
