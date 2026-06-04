@@ -71,3 +71,34 @@ document.querySelectorAll("[data-feedback-note]").forEach((node) => {
     ? "Góp ý sẽ được gửi qua tin nhắn Facebook."
     : "Mở app.js và thay feedbackUrl bằng link Messenger Facebook cá nhân của bạn.";
 });
+
+document.querySelectorAll(".nav-more").forEach((menu) => {
+  const button = menu.querySelector(".nav-more-button");
+  if (!button) return;
+
+  const close = () => {
+    menu.classList.remove("open");
+    button.setAttribute("aria-expanded", "false");
+  };
+
+  button.addEventListener("click", () => {
+    const expanded = menu.classList.toggle("open");
+    button.setAttribute("aria-expanded", expanded ? "true" : "false");
+  });
+
+  menu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", close);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!menu.contains(event.target)) {
+      close();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      close();
+    }
+  });
+});
