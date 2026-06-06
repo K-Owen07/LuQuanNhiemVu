@@ -30,7 +30,7 @@
         <div class="nav-more-menu" id="nav-more-menu">
           <a href="#roles">Vai trò</a>
           <a href="#submod">Sub-mod</a>
-          <a href="#support-mods">Mod hỗ trợ</a>
+          <a href="#support-mods">YiguFixes</a>
           <a href="#feedback">Góp ý</a>
         </div>
       </div>
@@ -372,29 +372,67 @@
 
     <section id="support-mods" class="band guide-band">
       <div class="section-heading">
-        <p class="eyebrow">Mod khác</p>
-        <h2>Mod hỗ trợ thêm: YiguFixes</h2>
+        <p class="eyebrow">Tóm tắt bản sửa đang hoạt động · 06/06/2026</p>
+        <h2>YiguFixes sửa và hỗ trợ những gì?</h2>
+        <p class="muted">
+          YiguFixes là module hỗ trợ riêng cho YiguThreeKingdoms. Nội dung dưới đây được tổng hợp từ các behavior
+          và lớp bảo vệ đang được kích hoạt trong bản hiện tại, không phải danh sách tính năng dự kiến.
+        </p>
       </div>
       <div class="story-grid">
         <article>
-          <h3>Ổn định chiến dịch</h3>
-          <p>YiguFixes hỗ trợ fix lag bản đồ, hạn chế một số hành vi AI gây nặng máy và giúp chiến dịch ổn định hơn khi chơi lâu.</p>
+          <h3>Bảo vệ save cũ và quest lỗi</h3>
+          <p>
+            Dọn các campaign behavior, quest, mục theo dõi, task và nhật ký bị null trong save cũ trước khi game tiếp tục xử lý.
+            Kết quả load thất bại cũng được ghi vào <code>YiguFixes_Debug.txt</code> để dễ xác định nguyên nhân.
+          </p>
           <a class="button secondary" data-yigufixes-download-link href="#">Tải YiguFixes</a>
         </article>
         <article>
-          <h3>Chiêu mộ thành đồng hành</h3>
+          <h3>Sửa party clan người chơi bị kẹt</h3>
           <p>
-            Mod này hỗ trợ chiêu mộ bất kỳ tướng nào người chơi yêu thích thành đồng hành, giúp bạn tự xây dựng
-            đội hình theo ý muốn.
+            Rà lại party thuộc clan người chơi theo giờ và theo ngày, làm mới trạng thái escort bị hỏng,
+            dọn cờ giao chiến sai và sửa companion trong main party bị lệch clan.
           </p>
         </article>
         <article>
-          <h3>Tương thích với cốt truyện</h3>
+          <h3>Party tự tìm nơi tuyển quân</h3>
           <p>
-            Khi dùng cùng Lưu Vong Phục Quốc, YiguFixes giúp tránh trùng một số dòng chiêu mộ dự phòng.
-            Tuy vậy các thử thách vai trò của Lưu Vong Phục Quốc vẫn được áp dụng cho tuyến nhiệm vụ chính.
+            Party của clan người chơi có thể tự chọn settlement phù hợp, đi tới nơi tuyển quân và gọi lại logic tuyển quân
+            của game, thay vì bị ép di chuyển liên tục hoặc đi lòng vòng.
           </p>
         </article>
+        <article>
+          <h3>Chiêu mộ và điều khiển tướng</h3>
+          <p>
+            Bổ sung hội thoại chiêu mộ tướng thành companion, kiểm tra trường hợp đã chiêu mộ,
+            ra lệnh party riêng hộ tống main party và xem quan hệ với tướng.
+          </p>
+        </article>
+        <article>
+          <h3>Đồng bộ gia đình và chư hầu</h3>
+          <p>
+            Sửa save cũ có vợ, chồng hoặc con của tướng bị lệch clan; đồng bộ gia đình khi tướng vào clan người chơi
+            hoặc trở thành chư hầu. Người chơi đã lập vương quốc và giữ ruling clan có thêm hội thoại mời clan quý tộc làm chư hầu.
+          </p>
+        </article>
+        <article>
+          <h3>Tương thích Lưu Vong Phục Quốc</h3>
+          <p>
+            Có lớp tương thích cho các kiểu quest của Lưu Vong Phục Quốc khi module gốc không được bật,
+            đồng thời tránh đăng ký trùng khi mod chính đang hoạt động. Các thử thách và cốt truyện vẫn thuộc mod chính.
+          </p>
+        </article>
+      </div>
+      <div class="notice-panel compact">
+        <div>
+          <p class="eyebrow">Giới hạn cần biết</p>
+          <h3>YiguFixes giảm lỗi phổ biến, không bảo đảm cứu mọi save hỏng</h3>
+        </div>
+        <p>
+          Hãy luôn sao lưu save trước khi thêm hoặc tắt mod. YiguFixes có thể dọn dữ liệu null và hỗ trợ một số kiểu dữ liệu
+          tương thích đã biết, nhưng không thể tự khôi phục mọi object, DLL hoặc nội dung của một mod bất kỳ đã bị xóa khỏi save.
+        </p>
       </div>
     </section>
 
